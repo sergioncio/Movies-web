@@ -1,0 +1,37 @@
+/*Formulario puntuacion*/
+.formpuntuacion {
+    width: 250px;
+    margin: 0 auto;
+    height: 50px;
+    text-align: center;
+  }
+  
+  .formpuntuacion p {
+    text-align: center;
+  }
+  
+  .formpuntuacion label {
+    font-size: 20px;
+  }
+  
+  .formpuntuacion input[type="radio"] {
+    display: none;
+  }
+  
+  .formpuntuacion label {
+    color: grey;
+  }
+  
+  .clasificacion {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+  }
+  
+  .formpuntuacion label:hover,
+  .formpuntuacion label:hover ~ label {
+    color: orange;
+  }
+  
+  .formpuntuacion input[type="radio"]:checked ~ label {
+    color: orange;
+  }
